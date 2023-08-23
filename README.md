@@ -29,9 +29,9 @@ Documentation
 ## Pre-requisites and Setup
 
 1. Python 3.6 or higher
-2. Install (anaconda)[https://docs.anaconda.com/free/anaconda/install/]
-3. Create a (GitHub account)[https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account]
-4. Create an (OpenAI account)[https://platform.openai.com/signup]
+2. Install [anaconda](https://docs.anaconda.com/free/anaconda/install/)
+3. Create a [GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
+4. Create an [OpenAI account](https://platform.openai.com/signup)
 
 ```
     # clone the repository
