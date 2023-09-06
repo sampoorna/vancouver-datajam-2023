@@ -1,0 +1,8 @@
+langchain==0.0.224
+python-dotenv==1.0.0
+unstructured==0.7.12
+openai==0.27.8
+chromadb==0.3.26
+tiktoken==0.4.0
+gradio==3.35.0
+gradio_client==0.2.7
