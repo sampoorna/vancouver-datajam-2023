@@ -5,44 +5,32 @@ Author: Sampoorna Biswas
 
 This workshop demonstrates how to develop quick and easy UI for ML-based apps using (Gradio)[https://github.com/gradio-app/gradio].
 
-To start, click here or on the button below:
-
-Start Workshop
-
-Note: It may take a few seconds for the notebook to load.
-
-Scroll down to the Running it locally section if you prefer to run things locally.
-
 Workshop level: intermediate to advanced
-Background knowledge
-Familiarity with JupyterLab.
+Background knowledge: 
+- Basic knowledge of Python
+- Familiarity with Jupyter notebooks
 
 ## Workshop Structure
 1. Introduction
 2. Setup
 3. Building a hello world app with Gradio
 4. Building a text to image generation app with Gradio
-5. Building a conversational chatbot with Gradio
-
-Documentation
+5. Building a conversational question-answering chatbot with Gradio
 
 ## Pre-requisites and Setup
 
 1. Python 3.6 or higher
-2. Install [anaconda](https://docs.anaconda.com/free/anaconda/install/)
+2. A [Google account](https://accounts.google.com/signup/v2/createaccount), if you want to use Colab. Alternatively you can set it up on your local machine.
 3. Create a [GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account)
 4. Create an [OpenAI account](https://platform.openai.com/signup)
 
+### Running the notebooks on Colab
+1. Clone the repository
 ```
-    # clone the repository
     git clone https://github.com/sampoorna/vancouver-datajam-2023.git
     cd vancouver-datajam-2023
-
-    # create a virtual environment
-    python3 -m venv env
-    source env/bin/activate
-
-    # install dependencies
-    pip install invoke
-    invoke setup --from-lock
 ```
+2. Go to [Google Colab](https://colab.research.google.com/)
+3. File -> Upload notebook (you might be prompted to sign up if you are not logged in)
+4. Find the notebooks in your local machine and upload all 3
+5. That's it! You should be able to run the notebooks on the Colab interface.
