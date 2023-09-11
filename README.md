@@ -31,6 +31,12 @@ Background knowledge:
     cd vancouver-datajam-2023
 ```
 2. Go to [Google Colab](https://colab.research.google.com/)
-3. File -> Upload notebook (you might be prompted to sign up if you are not logged in)
-4. Find the notebooks in your local machine and upload all 3
-5. That's it! You should be able to run the notebooks on the Colab interface.
+3. File -> Upload notebook (you might be prompted to sign up if you are not logged in). Make sure you use this option and _not_ the upload icon on the left sidebar.
+4. Find the notebooks in your local machine and upload just `hello-world.ipynb` for now.
+5. Open the left sidebar and use the upload icon to add `requirements.txt`. These are the Python packages that you will need to install.
+6. Insert a new code cell at the very top of the notebook and type in `!pip install -r requirements.txt`. Running this cell will install all the packages.
+7. That's it! You should be able to run the notebook on the Colab interface.
+
+Additional notes: 
+1. Each notebook is uploaded to its own space so you will need to repeat this when you switch to a different notebook. 
+2. When uploading files that a notebook needs to access, always use the upload icon on the left sidebar. To access these files, you can directly use the file name.
